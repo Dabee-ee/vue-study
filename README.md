@@ -6,16 +6,15 @@
 
 # *Contents*
 #### Vue 기본 개념
-1. Vue 사용방법
-2. Vue 기본 형태와 v-on, v-if
-3. 보간법과 v-model, ref
-4. 끝말잇기 만들며 기본 개념 복습
+1. [Vue 사용방법](https://acoustic-coast-a15.notion.site/1-Vue-09c459a4dba0444cb63d1b3c98abb37e)
+2. [Vue 기본 형태와 v-on, v-if](https://acoustic-coast-a15.notion.site/2-Vue-v-on-v-if-ae84651e2a4a42e1b4cba90851807004)
+3. [보간법과 v-model, ref](https://acoustic-coast-a15.notion.site/3-v-model-ref-06b9abbb8fef4d059951887fc7092de6)
 
 #### 컴포넌트, props, webpack
-6. 컴포넌트의 필요성과 특성
-7. props와 웹팩의 필요성
+4. 컴포넌트의 필요성과 특성
+5. props와 웹팩의 필요성
 
 
 #### Webpack
-8. 웹팩 사용하기
-9. 프로젝트 구조와 웹팩 빌드
+6. 웹팩 사용하기
+7. 프로젝트 구조와 웹팩 빌드
