@@ -1,5 +1,5 @@
 <template>
-  <table-component />
+  <table-component :table-data="tableData"  />
 </template>
 
 <script>
