@@ -11,10 +11,11 @@
 3. [보간법과 v-model, ref](https://acoustic-coast-a15.notion.site/3-v-model-ref-06b9abbb8fef4d059951887fc7092de6)
 
 #### 컴포넌트, props, webpack
-4. 컴포넌트의 필요성과 특성
-5. props와 웹팩의 필요성
+4. [컴포넌트의 필요성과 특성](https://acoustic-coast-a15.notion.site/6-8348d5a08e324985a06d8f4b6c92a815)
+5. [props와 웹팩의 필요성](https://acoustic-coast-a15.notion.site/7-props-57fe4925eab44671ab485ff7a05f93c3)
 
 
 #### Webpack
-6. 웹팩 사용하기
-7. 프로젝트 구조와 웹팩 빌드
+6. [웹팩 사용방법과 웹팩 구성](https://acoustic-coast-a15.notion.site/8-d43735f95d0841e3a625430bfbe8e12e)
+7. [뷰 파일 사용 방법과 웹팩 빌드](https://acoustic-coast-a15.notion.site/9-f198c2c5b6744189b084910f90a1c01e)
+8. [v-for로 반복문 사용하기](https://acoustic-coast-a15.notion.site/10-v-for-7b781ad495754cee963149d17d4da2fa)
