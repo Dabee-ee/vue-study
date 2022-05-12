@@ -1,5 +1,9 @@
 <template>
-  <table-component :table-data="tableData"  />
+  <div>
+    <div>{{turn}}님의 턴입니다.</div>
+    <table-component :table-data="tableData"  />
+    <div v-if="winner">{{winner}}님의 승리!</div>
+  </div>
 </template>
 
 <script>
@@ -11,14 +15,32 @@ export default {
     },
     data() {
       return {
-        tableData : [[], [], []];
+        tableData : [
+            ['', '', ''],
+            ['', '', ''],
+            ['', '', ''],
+        ],
+        turn: 'O',
+        winner: '',
       }
     },
     computed: {},
-    methods: {}
+    methods: {
+      onChangeData() {
+        this.$set(this.tableData[1], 0, 'X');
+      }
+    }
   };
 </script>
 
-<style scoped>
-
+<style>
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }
 </style>

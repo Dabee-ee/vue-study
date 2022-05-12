@@ -1,30 +1,25 @@
 <template>
   <tr>
-    <td-component v-for="(cellData, index) in rowData" :cell-data="cellData" :cell-idnex="index" :row-index="rowIndex"></td-component>
+    <td-component v-for="(cellData, index) in rowData" :key="index" :cell-data="cellData" :cell-index="index"
+                  :row-index="rowIndex"></td-component>
   </tr>
 </template>
 
 <script>
-  import TdComponent from "./TdComponent";
+import TdComponent from './TdComponent';
 
-  export default {
-    props: {
-      rowData: Array,
-      rowIndex: Number
-    },
-    components: {
-      TdComponent
-    },
-    data() {
-      return {
-
-      }
-    },
-    computed: {},
-    methods: {}
-  };
+export default {
+  components: {
+    TdComponent,
+  },
+  data() {
+    return {
+      parent: '내가 니 애비다',
+    };
+  },
+  props: {
+    rowData: Array,
+    rowIndex: Number,
+  },
+};
 </script>
-
-<style scoped>
-
-</style>
