@@ -5,17 +5,43 @@
 <br/><br/>
 
 # *Contents*
-#### Vue 기본 개념
-1. [Vue 사용방법](https://acoustic-coast-a15.notion.site/1-Vue-09c459a4dba0444cb63d1b3c98abb37e)
-2. [Vue 기본 형태와 v-on, v-if](https://acoustic-coast-a15.notion.site/2-Vue-v-on-v-if-ae84651e2a4a42e1b4cba90851807004)
-3. [보간법과 v-model, ref](https://acoustic-coast-a15.notion.site/3-v-model-ref-06b9abbb8fef4d059951887fc7092de6)
+### 0. 좋아요 버튼
+1. Vue 사용방법
+2. Vue 기본 형태과 v-on, v-if
 
-#### 컴포넌트, props, webpack
-4. [컴포넌트의 필요성과 특성](https://acoustic-coast-a15.notion.site/6-8348d5a08e324985a06d8f4b6c92a815)
-5. [props와 웹팩의 필요성](https://acoustic-coast-a15.notion.site/7-props-57fe4925eab44671ab485ff7a05f93c3)
+### 1. 구구단
+3. 보간법과 v-model, ref
+
+### 2. 끝말잇기
+4. Vue 기본 사용법 복습
+
+### 3. 숫자야구 
+5. 컴포넌트의 필요성과 특성
+6. props와 웹팩의 필요성
+7. 웹팩 사용 방법과 웹팩 구성
+8. 뷰 파일 사용 방법과 웹팩 빌드
+9. v-for로 반복문 사용하기
+
+### 4. 반응속도체크
+10. watch
+11. v-bind와 vue style
+12. webpack-dev-server
+13. computed와 v-show, template
+
+### 5.가위바위보
+14. vue-devtools
+15. :class 와 :style
+16. vue 라이프 사이클
 
 
-#### Webpack
-6. [웹팩 사용방법과 웹팩 구성](https://acoustic-coast-a15.notion.site/8-d43735f95d0841e3a625430bfbe8e12e)
-7. [뷰 파일 사용 방법과 웹팩 빌드](https://acoustic-coast-a15.notion.site/9-f198c2c5b6744189b084910f90a1c01e)
-8. [v-for로 반복문 사용하기](https://acoustic-coast-a15.notion.site/10-v-for-7b781ad495754cee963149d17d4da2fa)
+### 6. 로또 추첨기
+17. 뷰 스타일 가이드
+18. 자식 컴포넌트와 props
+19. vue의 watch
+
+### 7. 틱택토
+20. 2차원 배열
+21. this.$root, this.$parent
+22. Vue.set
+23. EventBus
+
