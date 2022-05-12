@@ -1,4 +1,6 @@
 import Vue from 'vue';
-import LottoGenerator from "./TicTacToe";
+import TicTacToe from './TicTacToe';
 
-new Vue(LottoGenerator).$mount('#root');
+new Vue({
+    render: createElement => createElement(TicTacToe)
+}).$mount('#root');
