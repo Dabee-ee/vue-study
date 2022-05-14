@@ -72,6 +72,7 @@
           this.result = '졌습니다.';
           this.score -= 1;
         }
+        // todo : resolve event stack
         setTimeout(() => {
           this.changeHand();
         }, 1000);
