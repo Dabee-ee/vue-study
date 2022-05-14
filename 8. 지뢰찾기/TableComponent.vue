@@ -71,9 +71,15 @@ import { CLICK_MINE, CODE, FLAG_CELL, NORMALIZE_CELL, OPEN_CELL, QUESTION_CELL }
       onClickTd(row, cell) {
         if (this.halted) {
           return;
-        };
-
-          this.$store.commit(OPEN_CELL, { row, cell })
+        }
+        switch (this.tableData[row][cell]) {
+          case CODE.NORMAL:
+            return this.$store.commit(OPEN_CELL, { row, cell });
+          case CODE.MINE:
+            return this.$store.commit(CLICK_MINE, { row, cell });
+          default:
+            return;
+        }
       },
       onRightClickTd(row, cell) {
         if (this.halted) {
