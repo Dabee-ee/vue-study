@@ -13,6 +13,7 @@
 
 <script>
   let interval = null;
+  let timeout;
   const rspCoords = {
     바위: '0',
     가위: '-142px',
@@ -60,6 +61,7 @@
       },
       onClickButton(choice) {
         clearInterval(interval);
+        clearTimeout(timeout);
         const myScore = scores[choice];
         const cpuScore = scores[computerChoice(this.imgCoord)];
         const diff = myScore - cpuScore;
@@ -73,7 +75,7 @@
           this.score -= 1;
         }
         // todo : resolve event stack
-        setTimeout(() => {
+        timeout = setTimeout(() => {
           this.changeHand();
         }, 1000);
       }
@@ -98,6 +100,8 @@
         console.log('updated');
       },
       beforeDestroy() {
+        clearInterval(interval);
+        clearTimeout(timeout);
         console.log('beforeDestroy');
       },
       destroyed() {
